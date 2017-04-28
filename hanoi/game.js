@@ -56,14 +56,4 @@ class Game {
   }
 }
 
-const game = new Game;
-// game.promptMove((a1,a2)=>console.log(a1 + a2));
-// console.log(game.isValidMove(0,1));
-// console.log(game.isValidMove(1,0));
-// console.log(game.move(0,1));
-// console.log(game.move(0,1));
-// console.log(game.isWon());
-game.run(() => {
-  console.log('yay');
-  reader.close();
-});
+module.exports = Game;
